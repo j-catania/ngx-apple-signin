@@ -14,6 +14,7 @@
     "url": "https://github.com/Juu-/ng8-apple-signin/issues",
     "email": "julien.catania@gmail.com"
   },
+  "main": "src/app/apple-signin.component.ts",
   "contributors": [{
     "name": "Julien Catania",
     "email": "julien.catania@gmail.com",
