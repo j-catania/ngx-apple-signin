@@ -1,3 +1,3 @@
-# Angular 8 Apple Signin component
+# Angular 8 Apple Sign In component
 
-An Angular 8 component for Apple Signin o/
+An Angular 8 component for Apple Sign In o/
