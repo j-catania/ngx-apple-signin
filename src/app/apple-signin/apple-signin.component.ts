@@ -14,10 +14,6 @@ export class AppleSigninComponent implements OnInit {
   @Input() state: string;
 
   ngOnInit(): void {
-    console.log(this.clientId)
-    console.log(this.scope)
-    console.log(this.redirectURI)
-    console.log(this.state)
     AppleID.auth.init({
       clientId : this.clientId,
       scope : this.scope,

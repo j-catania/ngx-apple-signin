@@ -1,17 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppleSigninComponent } from './apple-signin.component';
+import { AppleSigninComponent } from './apple-signin/apple-signin.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppleSigninComponent
+    AppleSigninComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule
   ],
   exports: [AppleSigninComponent],
   providers: [],
-  bootstrap: [AppleSigninComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
