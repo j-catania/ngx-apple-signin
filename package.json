@@ -1,6 +1,6 @@
 {
   "name": "ng8-apple-signin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,21 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "homepage": "https://github.com/Juu-/ng8-apple-signin#readme",
+  "bugs": {
+    "url": "https://github.com/Juu-/ng8-apple-signin/issues",
+    "email": "julien.catania@gmail.com"
+  },
+  "contributors": [{
+    "name": "Julien Catania",
+    "email": "julien.catania@gmail.com",
+    "url": "https://jcatania.io"
+  }],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juu-/ng8-apple-signin.git"
+  },
   "dependencies": {
     "@angular/animations": "~8.0.0",
     "@angular/common": "~8.0.0",
