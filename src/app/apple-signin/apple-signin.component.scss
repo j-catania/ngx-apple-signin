@@ -1,6 +1,8 @@
 :host{
   button{
+    display: flex;
     border: none;
     cursor: pointer;
+    padding: 0;
   }
 }
