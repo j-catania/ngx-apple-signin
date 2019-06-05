@@ -29,7 +29,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["src/appleid.auth.js"]
           },
           "configurations": {
             "production": {
