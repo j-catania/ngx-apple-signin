@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "apple-signin": [
+        "dist/apple-signin"
+      ],
+      "apple-signin/*": [
+        "dist/apple-signin/*"
+      ]
+    }
   }
 }

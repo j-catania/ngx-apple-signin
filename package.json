@@ -1,40 +1,10 @@
 {
-  "name": "ng8-apple-signin",
-  "version": "0.0.2",
+  "name": "ng8-apple-signin-sandbox",
+  "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve"
   },
-  "homepage": "https://github.com/Juu-/ng8-apple-signin#readme",
-  "bugs": {
-    "url": "https://github.com/Juu-/ng8-apple-signin/issues",
-    "email": "julien.catania@gmail.com"
-  },
-  "license": "ISC",
-  "keywords": [
-    "angular8",
-    "ng8",
-    "apple",
-    "sign",
-    "in",
-    "sso",
-    "signin"
-  ],
-  "main": "src/app/apple-signin.component.ts",
-  "contributors": [{
-    "name": "Julien Catania",
-    "email": "julien.catania@gmail.com",
-    "url": "https://jcatania.io"
-  }],
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Juu-/ng8-apple-signin.git"
-  },
+  "private": true,
   "dependencies": {
     "@angular/animations": "~8.0.0",
     "@angular/common": "~8.0.0",
@@ -50,6 +20,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.800.0",
+    "@angular-devkit/build-ng-packagr": "~0.800.0",
     "@angular/cli": "~8.0.1",
     "@angular/compiler-cli": "~8.0.0",
     "@angular/language-service": "~8.0.0",
@@ -64,8 +35,10 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "ng-packagr": "^5.1.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
+    "tsickle": "^0.35.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   }

@@ -1,0 +1,35 @@
+{
+  "name": "ng8-apple-signin",
+  "version": "0.0.7",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+  "homepage": "https://github.com/Juu-/ng8-apple-signin#readme",
+  "bugs": {
+    "url": "https://github.com/Juu-/ng8-apple-signin/issues",
+    "email": "julien.catania@gmail.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "angular8",
+    "ng8",
+    "apple",
+    "sign",
+    "in",
+    "sso",
+    "signin"
+  ],
+  "contributors": [
+    {
+      "name": "Julien Catania",
+      "email": "julien.catania@gmail.com",
+      "url": "https://jcatania.io"
+    }
+  ],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juu-/ng8-apple-signin.git"
+  }
+}

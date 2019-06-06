@@ -2,8 +2,11 @@ import {Component, Input, OnInit} from '@angular/core';
 declare const AppleID : any;
 
 @Component({
-  selector: 'ng8-apple-siginin',
-  templateUrl: './apple-signin.component.html',
+  selector: 'apple-signin',
+  template: `
+    <button id="appleid-signin" (click)="singninIn()" data-color="black" data-type="sign in"> Sign In with Apple </button>
+    
+  `,
   styleUrls: ['./apple-signin.component.scss']
 })
 export class AppleSigninComponent implements OnInit {
