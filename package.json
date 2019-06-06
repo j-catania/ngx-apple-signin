@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve",
+    "build": "ng build apple-signin",
     "publish": "ng build apple-signin && cd dist/apple-signin && npm publish && cd ../.."
   },
   "private": true,
