@@ -1,5 +1,6 @@
-# Angular 8 Apple Sign In component
+# Angular 8 Apple Sign In component 
 
+###### v0.0.9
 An Angular 8 component for Apple Sign In o/
 **This library is still under construction.**
 
@@ -11,8 +12,9 @@ Feel free to open issues and pull requests. If you would like to be one of the c
 ------------
 
 ### <a name="gstart">Getting Started</a>
-1. Download the library using npm `npm install --save ng8-apple-signin`
-2. Declare the library in your main module
+1 - Download the library using npm `npm install --save ng8-apple-signin`
+
+2 - Declare the library in your main module
   ```typescript
     import {NgModule} from '@angular/core';
     import {BrowserModule} from '@angular/platform-browser';
@@ -28,9 +30,8 @@ Feel free to open issues and pull requests. If you would like to be one of the c
     })
     export class AppModule {
     }
-  ```
-
-3. Add the Apple JS file in your index.html
+  ``` 
+3 - Add the Apple JavaScript file in your index.html
   ```html
     <!doctype html>
     <html lang="en">
@@ -48,3 +49,9 @@ Feel free to open issues and pull requests. If you would like to be one of the c
     </body>
     </html>
   ```
+4 - Just call the commponent
+  ```html
+    <apple-signin [state]="yourStateVar" [redirectURI]="yourRedirectURIVar" [scope]="yourScopeVar" [clientId]="yourClientIdVar"></apple-signin>
+  ```
+  
+5 - Enjoy it !
