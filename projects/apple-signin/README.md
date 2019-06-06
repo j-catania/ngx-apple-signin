@@ -55,3 +55,8 @@ Feel free to open issues and pull requests. If you would like to be one of the c
   ```
   
 5 - Enjoy it !
+
+------------
+
+To do list:
+  1. Change the Apple Javascript import to the project itself (step 3 will be deleted)

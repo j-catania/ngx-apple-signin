@@ -2,7 +2,8 @@
   "name": "ng8-apple-signin-sandbox",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve"
+    "start": "ng serve",
+    "publish": "ng build apple-signin && cd dist/apple-signin && npm publish && cd ../.."
   },
   "private": true,
   "dependencies": {
