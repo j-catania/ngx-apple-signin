@@ -3,8 +3,7 @@ import { AppleSigninComponent } from './apple-signin.component';
 
 @NgModule({
   declarations: [AppleSigninComponent],
-  imports: [
-  ],
+  imports: [],
   exports: [AppleSigninComponent]
 })
 export class AppleSigninModule { }
