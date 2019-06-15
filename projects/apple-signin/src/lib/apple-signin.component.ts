@@ -3,9 +3,7 @@ declare const AppleID : any;
 
 @Component({
   selector: 'apple-signin',
-  template: `{{color}} {{type}}
-    <button id="appleid-signin" (click)="singninIn()" [attr.data-color]="color" [attr.data-type]="type"> Sign In with Apple </button>
-  `,
+  template: `<button id="appleid-signin" (click)="singninIn()" [attr.data-color]="color" [attr.data-type]="type"> Sign In with Apple </button>`,
   styleUrls: ['./apple-signin.component.scss']
 })
 export class AppleSigninComponent implements OnInit, AfterViewChecked {

@@ -1,6 +1,6 @@
 {
   "name": "ng8-apple-signin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0"
