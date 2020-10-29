@@ -10,7 +10,6 @@ on:
 
 jobs:
   install-deps:
-    name: 'intall deps'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
