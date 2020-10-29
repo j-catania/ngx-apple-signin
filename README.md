@@ -6,6 +6,7 @@ An Angular 8+ component for Apple Sign In \o/
 [![NPM Version](https://img.shields.io/npm/dm/ng8-apple-signin.svg)](https://npmjs.org/package/ng8-apple-signin)
 [![Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/status.svg)](https://david-dm.org/Juu-/ngx-apple-signin)
 [![Dev Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/dev-status.svg)](https://david-dm.org/Juu-/ngx-apple-signin?type=dev)
+![Publish to NPMJs](https://github.com/Juu-/ngx-apple-signin/workflows/Publish%20to%20NPMJs/badge.svg)
 
 ### Contributing
 Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at julien.catania@gmail.com
