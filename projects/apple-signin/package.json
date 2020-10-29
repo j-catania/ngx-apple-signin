@@ -1,9 +1,9 @@
 {
   "name": "ngx-apple-signin",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "peerDependencies": {
-    "@angular/common": "^9.0.0",
-    "@angular/core": "^9.0.0"
+    "@angular/common": "^10.0.0",
+    "@angular/core": "^10.0.0"
   },
   "homepage": "https://github.com/Juu-/ngx-apple-signin#readme",
   "bugs": {
@@ -31,6 +31,9 @@
       "url": "https://jcatania.io"
     }
   ],
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Juu-/ngx-apple-signin.git"
