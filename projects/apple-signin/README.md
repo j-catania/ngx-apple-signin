@@ -3,6 +3,7 @@ An Angular 8+ component for Apple Sign In \o/
 
 [![NPM Version](https://img.shields.io/npm/v/ngx-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
 [![NPM Version](https://img.shields.io/npm/dm/ngx-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
+[![NPM Version](https://img.shields.io/npm/dm/ng8-apple-signin.svg)](https://npmjs.org/package/ng8-apple-signin)
 [![Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/status.svg)](https://david-dm.org/Juu-/ngx-apple-signin)
 [![Dev Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/dev-status.svg)](https://david-dm.org/Juu-/ngx-apple-signin?type=dev)
 
@@ -10,7 +11,13 @@ An Angular 8+ component for Apple Sign In \o/
 Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at julien.catania@gmail.com
 
 ### Component versions matches Angular versions
-_please see the github [readme](https://github.com/Juu-/ngx-apple-signin)_
+Please note that the *ng8-apple-signin* package is now **deprecated**
+
+| Angular version 	| NPM version 	| NPM install command                   	|
+|-----------------	|-------------	|---------------------------------------	|
+| 8.x.x           	| 8.0.1       	| `npm install ngx-apple-signin@8.0.0`  	|
+| 9.x.x           	| 9.0.0       	| `npm install ngx-apple-signin@9.0.0`  	|
+| 10.x.x          	| 10.0.0      	| `npm install ngx-apple-signin@10.0.0` 	|
 
 
 ### Getting Started
