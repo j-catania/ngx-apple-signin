@@ -5,8 +5,7 @@ name: Node.js Package
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches: [ master ]
 
 jobs:
   publish-npm:
@@ -19,7 +18,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm run build
-      - run: cd dist/apple-signin
-      - run: npm publish
+      - run: cd dist/apple-signin && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
