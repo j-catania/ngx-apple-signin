@@ -27,7 +27,6 @@
       "url": "https://jcatania.io"
     }
   ],
-  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/Juu-/ngx-apple-signin.git"
