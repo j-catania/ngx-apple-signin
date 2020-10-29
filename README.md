@@ -40,7 +40,7 @@ Please note that the *ng8-apple-signin* package is now **deprecated**
     export class AppModule {
     }
   ``` 
-3 - Add the Apple JavaScript file in your index.html
+3 - Add the Apple JavaScript file in your index.html (more details [here](https://developer.apple.com/documentation/sign_in_with_apple/sign_in_with_apple_js/configuring_your_webpage_for_sign_in_with_apple))
   ```html
     <!doctype html>
     <html lang="en">
