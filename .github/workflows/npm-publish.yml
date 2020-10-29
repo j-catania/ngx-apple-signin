@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: ng build apple-signin --prod
+      - run: npm run build
 
   publish-npm:
     needs: install-deps
