@@ -15,7 +15,7 @@ Please note that the *ng8-apple-signin* package is now **deprecated**
 
 | Angular version 	| NPM version 	| NPM install command                   	|
 |-----------------	|-------------	|---------------------------------------	|
-| 8.x.x           	| 8.0.2       	| `npm install ngx-apple-signin@8.0.2`  	|
+| 8.x.x           	| 8.0.3       	| `npm install ngx-apple-signin@8.0.3`  	|
 | 9.x.x           	| 9.0.0       	| `npm install ngx-apple-signin@9.0.0`  	|
 | 10.x.x          	| 10.0.0      	| `npm install ngx-apple-signin@10.0.0` 	|
 
