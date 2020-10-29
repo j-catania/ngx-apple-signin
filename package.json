@@ -1,5 +1,5 @@
 {
-  "name": "ng8-apple-signin-sandbox",
+  "name": "ngx-apple-signin-sandbox",
   "version": "1.1.0",
   "scripts": {
     "start": "ng serve",
