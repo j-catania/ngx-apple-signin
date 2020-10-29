@@ -2,23 +2,29 @@
 An Angular 8+ component for Apple Sign In \o/
 
 [![NPM Version](https://img.shields.io/npm/v/ngx-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
-[![NPM Version](https://img.shields.io/npm/dm/ng8-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
-[![Dependencies Badge](https://david-dm.org/Juu-/ng8-apple-signin/status.svg)](https://david-dm.org/Juu-/ng8-apple-signin)
-[![Dev Dependencies Badge](https://david-dm.org/Juu-/ng8-apple-signin/dev-status.svg)](https://david-dm.org/Juu-/ng8-apple-signin?type=dev)
+[![NPM Version](https://img.shields.io/npm/dm/ngx-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
+[![Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/status.svg)](https://david-dm.org/Juu-/ngx-apple-signin)
+[![Dev Dependencies Badge](https://david-dm.org/Juu-/ngx-apple-signin/dev-status.svg)](https://david-dm.org/Juu-/ngx-apple-signin?type=dev)
 
 ### Contributing
 Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at julien.catania@gmail.com
 
-------------
+### Component versions matches Angular versions
+| Angular version 	| NPM version 	| NPM install command                   	|
+|-----------------	|-------------	|---------------------------------------	|
+| 8.x.x           	| 8.0.0       	| `npm install ngx-apple-signin@8.0.0`  	|
+| 9.x.x           	| 9.0.0       	| `npm install ngx-apple-signin@9.0.0`  	|
+| 10.x.x          	| 10.0.0      	| `npm install ngx-apple-signin@10.0.0` 	|
 
-### <a name="gstart">Getting Started</a>
-1 - Download the library using npm `npm install ng8-apple-signin`
+
+### Getting Started
+1 - Download the library using npm `npm install ngx-apple-signin`
 
 2 - Declare the library in your main module
   ```typescript
     import {NgModule} from '@angular/core';
     import {BrowserModule} from '@angular/platform-browser';
-    import { AppleSigninModule } from 'ng8-apple-signin'
+    import { AppleSigninModule } from 'ngx-apple-signin'
   
     @NgModule({
       declarations: [...],
@@ -51,7 +57,12 @@ Feel free to open issues and pull requests. If you would like to be one of the c
   ```
 4 - Just call the component
   ```html
-     <apple-signin [state]="yourStateVar" [redirectURI]="yourRedirectURIVar" [scope]="yourScopeVar" [clientId]="yourClientIdVar" color="light" type="sign up"></apple-signin>
+     <apple-signin   [state]="yourStateVar"
+                     [redirectURI]="yourRedirectURIVar"
+                     [scope]="yourScopeVar"
+                     [clientId]="yourClientIdVar"
+                     color="light"
+                     type="sign up"></apple-signin>
  ``` 
 _4.1 - This is how Color Enum and Type Enum looks like_
  ```typescript
