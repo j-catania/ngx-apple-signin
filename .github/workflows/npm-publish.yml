@@ -9,7 +9,8 @@ on:
       - 'v*'
 
 jobs:
-  build:
+  install-deps:
+    name: 'intall deps'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,6 +18,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
+      - run: cd dist/apple-signin
+      - run: ng build apple-signin --prod
 
   publish-npm:
     needs: build
@@ -27,7 +30,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
