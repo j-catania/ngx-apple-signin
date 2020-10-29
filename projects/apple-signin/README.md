@@ -1,12 +1,10 @@
 # Angular8+ Apple Sign In component 
-<span class="badge-npmversion"><a href="https://npmjs.org/package/ng8-apple-signin" title="View this project on NPM"><img src="https://img.shields.io/npm/v/ng8-apple-signin.svg" alt="NPM version" /></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/ng8-apple-signin" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/ng8-apple-signin.svg" alt="NPM downloads" /></a></span>
-<span class="badge-badge"><a href="https://david-dm.org/Juu-/ng8-apple-signin" title="David Dependencies Badge"><img src="https://david-dm.org/Juu-/ng8-apple-signin/status.svg" alt="David Dependencies Badge" /></a></span>
-<span class="badge-badge"><a href="https://david-dm.org/Juu-/ng8-apple-signin?type=dev" title="David Dev Dependencies Badge"><img src="https://david-dm.org/Juu-/ng8-apple-signin/dev-status.svg" alt="David Dev Dependencies Badge" /></a></span>
+An Angular 8+ component for Apple Sign In \o/
 
-An Angular 8+ component for Apple Sign In o/
-
-------------
+[![NPM Version](https://img.shields.io/npm/v/ngx-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
+[![NPM Version](https://img.shields.io/npm/dm/ng8-apple-signin.svg)](https://npmjs.org/package/ngx-apple-signin)
+[![Dependencies Badge](https://david-dm.org/Juu-/ng8-apple-signin/status.svg)](https://david-dm.org/Juu-/ng8-apple-signin)
+[![Dev Dependencies Badge](https://david-dm.org/Juu-/ng8-apple-signin/dev-status.svg)](https://david-dm.org/Juu-/ng8-apple-signin?type=dev)
 
 ### Contributing
 Feel free to open issues and pull requests. If you would like to be one of the core creators of this library, please reach out to me at julien.catania@gmail.com
