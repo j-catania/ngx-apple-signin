@@ -1,9 +1,9 @@
 {
   "name": "ngx-apple-signin",
-  "version": "8.0.3",
+  "version": "9.0.0",
   "peerDependencies": {
-    "@angular/common": "^8.0.0",
-    "@angular/core": "^8.0.0"
+    "@angular/common": "^9.0.0",
+    "@angular/core": "^9.0.0"
   },
   "homepage": "https://github.com/Juu-/ngx-apple-signin#readme",
   "bugs": {
@@ -12,6 +12,10 @@
   },
   "license": "ISC",
   "keywords": [
+    "angular10",
+    "ng10",
+    "angular9",
+    "ng9",
     "angular8",
     "ng8",
     "apple",
