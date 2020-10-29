@@ -1,13 +1,13 @@
 {
-  "name": "ng8-apple-signin",
+  "name": "ngx-apple-signin",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0"
   },
-  "homepage": "https://github.com/Juu-/ng8-apple-signin#readme",
+  "homepage": "https://github.com/Juu-/ngx-apple-signin#readme",
   "bugs": {
-    "url": "https://github.com/Juu-/ng8-apple-signin/issues",
+    "url": "https://github.com/Juu-/ngx-apple-signin/issues",
     "email": "julien.catania@gmail.com"
   },
   "license": "ISC",
@@ -30,6 +30,6 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Juu-/ng8-apple-signin.git"
+    "url": "https://github.com/Juu-/ngx-apple-signin.git"
   }
 }
