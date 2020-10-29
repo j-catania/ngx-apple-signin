@@ -14,7 +14,7 @@ Feel free to open issues and pull requests. If you would like to be one of the c
 ------------
 
 ### <a name="gstart">Getting Started</a>
-1 - Download the library using npm `npm install --save ng8-apple-signin`
+1 - Download the library using npm `npm install ng8-apple-signin`
 
 2 - Declare the library in your main module
   ```typescript
