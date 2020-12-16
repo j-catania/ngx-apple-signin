@@ -5,9 +5,9 @@
     "@angular/common": "^10.0.0",
     "@angular/core": "^10.0.0"
   },
-  "homepage": "https://github.com/Juu-/ngx-apple-signin#readme",
+  "homepage": "https://github.com/j-catania/ngx-apple-signin#readme",
   "bugs": {
-    "url": "https://github.com/Juu-/ngx-apple-signin/issues",
+    "url": "https://github.com/j-catania/ngx-apple-signin/issues",
     "email": "julien.catania@gmail.com"
   },
   "license": "ISC",
@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Juu-/ngx-apple-signin.git"
+    "url": "https://github.com/j-catania/ngx-apple-signin.git"
   }
 }
